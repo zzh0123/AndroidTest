@@ -28,8 +28,6 @@ import butterknife.OnClick;
 public class MainActivity extends Main2Activity {
 
     // test commit
-    @BindView(R.id.button)
-    Button button;
     @BindView(R.id.button2)
     Button button2;
     @BindView(R.id.button3)
@@ -52,6 +50,7 @@ public class MainActivity extends Main2Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // test commit3
 //        getWindow().setFormat(PixelFormat.TRANSLUCENT);
         Log.i("--zoule--", "--onCreate--");
 //        getWindow().setFormat(PixelFormat.TRANSLUCENT);
