@@ -27,6 +27,7 @@ import butterknife.OnClick;
 
 public class MainActivity extends Main2Activity {
 
+    // test commit
     @BindView(R.id.button)
     Button button;
     @BindView(R.id.button2)
