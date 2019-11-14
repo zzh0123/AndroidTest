@@ -28,6 +28,8 @@ import butterknife.OnClick;
 public class MainActivity extends Main2Activity {
 
     // test commit
+    @BindView(R.id.button)
+    Button button;
     @BindView(R.id.button2)
     Button button2;
     @BindView(R.id.button3)
@@ -73,7 +75,15 @@ public class MainActivity extends Main2Activity {
 
 
 
-    // initdata
+    /**
+     * 初始化数据
+     */
+    private void initData() {
+        for (int i = 0; i < 100; i++) {
+            Student student = new Student((long) i, "ahuang" + i, 25,"666"+i);
+            studentList.add(student);
+        }
+    }
 
     int page;
     @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.btn_query_all
