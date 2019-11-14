@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidTest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <color name="list_item">#f6f6f6</color>
+    <color name="white1">#FFFFFF</color>
+</resources>

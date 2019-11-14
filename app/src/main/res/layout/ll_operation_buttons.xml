@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_work_oper"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/btn_jobguide"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:textSize="@dimen/polling_fontsize" />
+
+    <Button
+        android:id="@+id/btn_show_question"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/btn_question_view"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:textSize="@dimen/polling_fontsize" />
+
+    <Button
+        android:id="@+id/btn_show_question_todo"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/btn_question_todo_view"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:textSize="@dimen/polling_fontsize" />
+
+    <Button
+        android:id="@+id/btn_show_test"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/btn_test_view"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:textSize="@dimen/polling_fontsize" />
+
+    <Button
+        android:id="@+id/btn_show_qualication"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/btn_appraisal_view"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:textSize="@dimen/polling_fontsize" />
+
+    <Button
+        android:id="@+id/btn_show_temp_accept"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/btn_show_temp_accept"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:textSize="@dimen/polling_fontsize" />
+
+    <Button
+        android:id="@+id/btn_show_accept"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/btn_show_accept"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:textSize="@dimen/polling_fontsize" />
+
+    <Button
+        android:id="@+id/btn_show_tool"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/btn_show_polling_tool"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:textSize="@dimen/polling_fontsize" />
+
+</LinearLayout>
