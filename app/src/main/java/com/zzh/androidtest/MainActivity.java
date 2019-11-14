@@ -73,15 +73,8 @@ public class MainActivity extends Main2Activity {
 
 
 
-    /**
-     * 初始化数据
-     */
-    private void initData() {
-        for (int i = 0; i < 100; i++) {
-            Student student = new Student((long) i, "ahuang" + i, 25,"666"+i);
-            studentList.add(student);
-        }
-    }
+    // initdata
+
     int page;
     @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.btn_query_all
             ,R.id.bt_jump})
