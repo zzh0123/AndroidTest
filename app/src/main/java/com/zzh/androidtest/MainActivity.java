@@ -65,6 +65,8 @@ public class MainActivity extends Main2Activity {
 //        intentFilter.addAction(BROADCAST_ACTION_DISC);
 //        // 3. 动态注册：调用Context的registerReceiver（）方法
 //        registerReceiver(myBroadCastReceiver, intentFilter);
+
+        // test commit2
     }
 
     private List<Student> studentList = new ArrayList<>();
